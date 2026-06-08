@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo R&B</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="overlay">
+        <h1>🎵 Universo R&B</h1>
+        <p>Conheça os maiores artistas, álbuns e sucessos do Rhythm and Blues</p>
+        <button onclick="mostrarMensagem()">Descobrir Mais</button>
+        <p id="mensagem"></p>
+    </div>
+</header>
+
+<nav>
+    <a href="#historia">História</a>
+    <a href="#artistas">Artistas</a>
+    <a href="#albuns">Álbuns</a>
+    <a href="#playlist">Playlist</a>
+</nav>
+
+<section id="historia">
+    <h2>O que é R&B?</h2>
+    <p>
+        Rhythm and Blues (R&B) é um gênero musical que surgiu nos Estados Unidos
+        na década de 1940. Com influências do soul, jazz, funk e hip-hop,
+        tornou-se um dos estilos mais populares do mundo.
+    </p>
+</section>
+
+<section id="artistas">
+    <h2>Artistas em Destaque</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="img/sza.jpg" alt="SZA">
+            <h3>SZA</h3>
+            <p>Uma das vozes mais influentes do R&B contemporâneo.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/theweeknd.jpg" alt="The Weeknd">
+            <h3>The Weeknd</h3>
+            <p>Conhecido por misturar R&B moderno com pop e música eletrônica.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/her.jpg" alt="H.E.R">
+            <h3>H.E.R.</h3>
+            <p>Reconhecida por seu talento vocal e instrumental.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/brent.jpg" alt="Brent Faiyaz">
+            <h3>Brent Faiyaz</h3>
+            <p>Um dos artistas mais populares da nova geração do R&B.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="albuns">
+    <h2>Álbuns Marcantes</h2>
+
+    <table>
+        <tr>
+            <th>Artista</th>
+            <th>Álbum</th>
+            <th>Ano</th>
+        </tr>
+
+        <tr>
+            <td>SZA</td>
+            <td>SOS</td>
+            <td>2022</td>
+        </tr>
+
+        <tr>
+            <td>The Weeknd</td>
+            <td>After Hours</td>
+            <td>2020</td>
+        </tr>
+
+        <tr>
+            <td>H.E.R.</td>
+            <td>Back of My Mind</td>
+            <td>2021</td>
+        </tr>
+
+        <tr>
+            <td>Brent Faiyaz</td>
+            <td>Wasteland</td>
+            <td>2022</td>
+        </tr>
+    </table>
+</section>
+
+<section id="playlist">
+    <h2>Playlist Recomendada</h2>
+
+    <ol>
+        <li>Kill Bill - SZA</li>
+        <li>Die For You - The Weeknd</li>
+        <li>Damage - H.E.R.</li>
+        <li>Trust - Brent Faiyaz</li>
+        <li>Best Part - H.E.R. & Daniel Caesar</li>
+    </ol>
+</section>
+
+<footer>
+    <p>🎧 Universo R&B - 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
